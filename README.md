@@ -1,0 +1,5 @@
+- **temporal_normalization_RPE.ipynb** main analyses
+- **temp_norm.py** functions for temporal normalization
+- **tests.py** functions for statistical tests
+- **graph_neurons.py** functions for graphing
+- **fits/** saved parameter fits
