@@ -172,7 +172,7 @@ def sousa_R2(all_params, raw_df, neurons, baseline=True, constrain_W=False, skip
     aic_tmp = 2*all_params[0].shape[0] + y.shape[0]*np.log(mse_tmp)
 
     r2_shape = r2_score(peaks_true, peaks_pred)
-    mse_shape = np.mean(peaks_true - peaks_pred)**2
+    mse_shape = np.mean((peaks_true - peaks_pred)**2)
     aic_shape = 2*all_params[0].shape[0] + peaks_true.shape[0]*np.log(mse_shape)
     
     return r2_tmp, aic_tmp, r2_shape, aic_shape
