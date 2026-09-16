@@ -2,4 +2,5 @@
 - **temp_norm.py** functions for temporal normalization
 - **tests.py** functions for statistical tests
 - **graph_neurons.py** functions for graphing
+- **discrete_models.py** functions for discrete models from Eshel et al. (2015)
 - **fits/** saved parameter fits
