@@ -196,7 +196,7 @@ def wrap_simulate_eshel(args, testcue=1, testrwd_dur=0):
     r3 = simulate(stim, predW, tau3=tau3, sigma3=sigma3, tauE3=tauE3, tauS3=tauS3, dt=dt, T=T, b=b, br=br) 
     yhat = m*r3
 
-    return np.array(yhat)#.reshape(-1)
+    return np.array(yhat)
             
 
 def get_psth(raw_df, neuron, r=4.5, get_n=False, start=6, shuffle=False):
